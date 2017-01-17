@@ -1,0 +1,65 @@
+﻿body
+{
+    background-color: #FFFFEC;
+}
+
+#container
+{
+    width: 80%;
+    z-index: 100;
+    position: absolute;
+    align-self: center;
+    left: 20%;
+}
+
+.tblRow, .tblColumn
+{
+    font-size: 12px;
+    border: 1px inset;
+    text-align: center;
+}
+
+.tblStyle
+{
+    border: 2px;
+    text-align: center;
+    background-color: #FFFFCC;
+    font-family: Calibri;
+    border-radius: 2px;
+}
+
+.tblHearerCell
+{
+    border: 1px inset;
+    text-align: center;
+    width: 125px;
+    background-color: #CC66FF;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.tblHearerRow
+{
+    height: 30px;
+}
+
+#pageContainer
+{
+    margin: 100px 0px 0px 0px;
+    width: 960px;
+    align-self: center;
+}
+
+#homeDiv
+{
+    font-family: Calibri;
+    font-size: 14px;
+}
+
+#pageHeader
+{
+    margin: 0px 0px 0px 0px;
+    width: 960px;
+    height: 82px;
+    align-self: center;
+}

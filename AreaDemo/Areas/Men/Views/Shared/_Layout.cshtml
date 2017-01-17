@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+    <script src="~/Content/appjs/animation.js"></script>
+
+    <link href="~/Content/appcss/navigation.css" rel="stylesheet" />
+    <link href="~/Content/appcss/animation.css" rel="stylesheet" />
+    <link href="~/Content/appcss/custom.css" rel="stylesheet" />
+</head>
+
+
+<body>
+    <div id="container">
+        <header id="pageHeader">
+            <strong>Areas Layout</strong>
+            <img src="~/Content/images/header.jpg"/>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="~/Men/Home/Index">Men</a>
+                        <ul>
+                            <li><a href="~/Men/Clothing/Index">Clothing</a></li>
+                            <li><a href="~/Men/Footwear/Index">Footwears</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="~/Women/Home/Index">Women</a>
+                        <ul>
+                            <li><a href="~/Women/Clothing/Index">Clothing</a></li>
+                            <li><a href="~/Women/Footwear/Index">Footwears</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+        </header>
+        <br />
+        <br />
+        <div id="pageContainer">
+            @RenderBody()
+
+        </div>
+    </div>
+</body>
+</html>
